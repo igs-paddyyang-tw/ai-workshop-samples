@@ -20,7 +20,7 @@ python start.py        # 或 start_bot.py
 | 01 | [01-ai-bot](01-ai-bot/) | 單一 Bot + 意圖路由 + Gemini 對話 | TG Token + Gemini |
 | 02 | [02-agent-team](02-agent-team/) | 5 Agent 團隊 + 任務看板 + Telegram 派工 | TG Token |
 | 03 | [03-platform](03-platform/) | API 21 端點 + Web Kanban + 五層架構 | TG Token |
-| 04 | [04-skills-demo](04-skills-demo/) | Spec-Driven 開發（拷問→Spec→Skill→驗證） | Kiro CLI |
+| 04 | [04-skills-demo](04-skills-demo/) | Spec-Driven 開發（拷問→Spec→Skill→驗證） | Kiro / Antigravity IDE |
 | 05 | [05-llm-wiki](05-llm-wiki/) | RAG 問答 + 知識圖譜 + Wiki | TG Token + Gemini |
 
 ## 前置條件
@@ -28,7 +28,7 @@ python start.py        # 或 start_bot.py
 - Python 3.12+
 - Telegram 帳號（01/02/03/05）
 - Gemini API Key（01/05，免費：aistudio.google.com）
-- Kiro CLI 2.7+（僅 04）
+- Kiro CLI 2.7+ **或** Antigravity CLI（僅 04）
 
 ## 與 ai-workshop 教材的關係
 
