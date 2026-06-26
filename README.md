@@ -4,6 +4,24 @@
 
 ## 使用方式
 
+### 方式 A：IDE 開啟（推薦）
+
+用 **Kiro IDE** 或 **Antigravity IDE** 開啟任一 sample 目錄，在聊天框輸入：
+
+```
+啟動 Bot
+```
+
+或
+
+```
+python start.py
+```
+
+IDE 會自動載入 `.kiro/skills/` 並執行。
+
+### 方式 B：終端機
+
 ```bash
 git clone https://github.com/igs-paddyyang-tw/ai-workshop-samples.git
 cd ai-workshop-samples/{選一個 sample}
@@ -15,13 +33,15 @@ python start.py        # 或 start_bot.py
 
 ## Sample 列表
 
-| # | 目錄 | 功能 | 需要的 Key |
-|---|------|------|-----------|
-| 01 | [01-ai-bot](01-ai-bot/) | 單一 Bot + 意圖路由 + Gemini 對話 | TG Token + Gemini |
-| 02 | [02-agent-team](02-agent-team/) | 5 Agent 團隊 + 任務看板 + Telegram 派工 | TG Token |
-| 03 | [03-platform](03-platform/) | API 21 端點 + Web Kanban + 五層架構 | TG Token |
-| 04 | [04-skills-demo](04-skills-demo/) | Spec-Driven 開發（拷問→Spec→Skill→驗證） | Kiro / Antigravity IDE |
-| 05 | [05-llm-wiki](05-llm-wiki/) | RAG 問答 + 知識圖譜 + Wiki | TG Token + Gemini |
+| # | 目錄 | 功能 | 啟動方式 | 需要的 Key |
+|---|------|------|---------|-----------|
+| 01 | [01-ai-bot](01-ai-bot/) | 單一 Bot + 意圖路由 + Gemini 對話 | IDE 或 `python start_bot.py` | TG Token + Gemini |
+| 02 | [02-agent-team](02-agent-team/) | 5 Agent 團隊 + 任務看板 + Telegram 派工 | IDE 或 `python start.py` | TG Token |
+| 03 | [03-platform](03-platform/) | API 21 端點 + Web Kanban + 五層架構 | IDE 或 `python start.py` | TG Token |
+| 04 | [04-skills-demo](04-skills-demo/) | Spec-Driven 開發（拷問→Spec→Skill→驗證） | IDE 聊天框觸發 | — |
+| 05 | [05-llm-wiki](05-llm-wiki/) | RAG 問答 + 知識圖譜 + Wiki | IDE 或 `python start_bot.py` | TG Token + Gemini |
+
+> 💡 所有 sample 都支援 **Kiro IDE** 和 **Antigravity IDE**。用 IDE 開啟目錄即可使用。
 
 ## 前置條件
 
